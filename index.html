@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazine Cover</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .magazine-cover {
+            width: 100%;
+            max-width: 450px;
+            height: 700px;
+            position: relative;
+            background: url('https://assets.vogue.in/photos/6721f3c36f0c5002f77e2289/1:1/w_1600,c_limit/Snapinsta.app_442169304_1373195726721009_1398570530695337268_n_1080.jpg') no-repeat center center/cover;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            color: rgb(255, 254, 254);
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            padding: 20px;
+        }
+        .title {
+            font-size: 50px;
+            font-weight: bold;
+            position: absolute;
+            top: 15px;
+            left: 82%;
+            transform: translateX(-50%);
+            color: rgb(255, 255, 255);
+            letter-spacing: 1px;
+            position: relative;
+            font-family: AdobeGaramondPro, serif;
+        }
+        .subtitle {
+            font-size: 10px;
+            position: absolute;
+            top: 2px;
+            left: 63%;
+            transform: translateX(-50%);
+            color: rgb(254, 251, 251);
+            font-family: 'Montserrat', sans-serif;
+            letter-spacing: 1px;
+        }
+        .headline {
+            font-size: 20px;
+            font-weight: bold;
+            position: absolute;
+            bottom: 100px;
+            left: 10%;
+            width: 80%;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .caption {
+            font-size: 14px;
+            position: absolute;
+            bottom: 60px;
+            left: 10%;
+            width: 80%;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="magazine-cover">
+            <div class="title">VOGUE
+                <span class="subtitle">ALIA BHATT</span>
+            </div>
+            <div class="headline">"She brought the GLAMOUR back and embodies a message of FREEDOM"</div>
+            <div class="caption"> BY  ANANYAA PATEL</div>
+           
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
